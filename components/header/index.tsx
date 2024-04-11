@@ -55,15 +55,15 @@ const Header = ({ isErrorPage }: HeaderType) => {
   return(
     <header className={`site-header ${!onTop ? 'site-header--fixed' : ''}`}>
       <div className="container">
-        <Link href="/">
-          <a><h1 className="site-logo"><Logo />E-Shop</h1></a>
-        </Link>
+      <Link legacyBehavior href="/">
+  <a><img src="/images/novemnewblack.png" alt="E-Shop Logo" className="site-logo" style={{ width: '250px', height: 'auto' }} /></a>
+</Link>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
-          <Link href="/products">
-            <a>Products</a>
+          <Link legacyBehavior href="/products">
+            <a>Productos</a>
           </Link>
-          <a href="#">Inspiration</a>
-          <a href="#">Rooms</a>
+          <a href="#">Obras</a>
+          <a href="#">Sobre Nosotros</a>
           <button className="site-nav__btn"><p>Account</p></button>
         </nav>
 

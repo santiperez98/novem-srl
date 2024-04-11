@@ -24,7 +24,7 @@ const ForgotPassword = () => {
       <section className="form-page">
         <div className="container">
           <div className="back-button-section">
-            <Link href="/products">
+            <Link legacyBehavior href="/products">
               <a><i className="icon-left"></i> Back to shop</a>
             </Link>
           </div>

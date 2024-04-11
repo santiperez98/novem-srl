@@ -522,12 +522,12 @@ h1,h2,h3,h4,h5 {
       display: flex;
     }
     &:before {
-      color: #FFF;
+      color: #0594ef;
       content: '\e80b';
       font-family: 'icons';
     }
     &:hover {
-      background: #FFF;
+      background: #0594ef;
       &:before {
         color: #000;
       }
@@ -557,7 +557,7 @@ h1,h2,h3,h4,h5 {
       display: block;
     }
     &:before {
-      background: #FFF;
+      background: #0594ef;
       content: '';
       left: 0;
       bottom: 0;
@@ -606,12 +606,15 @@ h1,h2,h3,h4,h5 {
         }
         .data-item__content {
           h4 {
+            
             font-size: 14px;
             margin-bottom: 7px;
+            color: #2e3a44;
           }
           p {
             font-size: 12px;
             line-height: 135%;
+            color: #2e3a44;
           }
         }
       }
@@ -2820,3 +2823,4 @@ h1,h2,h3,h4,h5 {
     }
   }
 }
+

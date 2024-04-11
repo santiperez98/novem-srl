@@ -28,7 +28,7 @@ const ProductsFilter = () => {
       
       <div className={`products-filter__wrapper ${filtersOpen ? 'products-filter__wrapper--open' : ''}`}>
         <div className="products-filter__block">
-          <button type="button">Product type</button>
+          <button type="button">Tipo material</button>
           <div className="products-filter__block__content">
             {productsTypes.map(type => (
               <Checkbox 
@@ -41,14 +41,14 @@ const ProductsFilter = () => {
         </div>
 
         <div className="products-filter__block">
-          <button type="button">Price</button>
+          <button type="button">Precio</button>
           <div className="products-filter__block__content">
             <Range min={0} max={20} defaultValue={[3, 10]} tipFormatter={value => `${value}%`} />
           </div>
         </div>
         
         <div className="products-filter__block">
-          <button type="button">Size</button>
+          <button type="button">Tamaño</button>
           <div className="products-filter__block__content checkbox-square-wrapper">
             {productsSizes.map(type => (
               <Checkbox 

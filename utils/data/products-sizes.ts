@@ -1,27 +1,27 @@
 export const productsSizes = [
     {
       id: '1',
-      label: 'XS',
+      label: '55cm',
     },
     {
       id: '2',
-      label: 'S',
+      label: '60cm',
     },
     {
       id: '3',
-      label: 'M',
+      label: '65cm',
     },
     {
       id: '4',
-      label: 'L',
+      label: '70cm',
     },
     {
       id: '5',
-      label: 'XL',
+      label: '75cm',
     },
     {
       id: '6',
-      label: 'XXL',
+      label: '80cm',
     },
   ];
   

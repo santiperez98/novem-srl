@@ -6,9 +6,9 @@ const Footer = () => {
       <div className="container">
         <div className="site-footer__top">
           <div className="site-footer__description">
-            <h6><Logo /> <span>E</span>-Shop</h6>
-            <p>House My Brand designs clothing for the young, the old & everyone in between – but most 
-              importantly, for the fashionable</p>
+          
+  <a><img src="/images/novemnewblack.png" alt="E-Shop Logo" className="site-logo" style={{ width: '250px', height: 'auto' }} /></a>
+
             <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-facebook"></i></a></li>
               <li><a href="#"><i className="icon-twitter"></i></a></li>
@@ -20,25 +20,23 @@ const Footer = () => {
 
           <div className="site-footer__links">
             <ul>
-              <li>Shopping online</li>
-              <li><a href="#">Order Status</a></li>
-              <li><a href="#">Shipping and Delivery</a></li>
-              <li><a href="#">Returns</a></li>
-              <li><a href="#">Payment options</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li>Compra en línea</li>
+              <li><a href="#">Estado del pedido</a></li>
+              <li><a href="#">Envío y entrega</a></li>
+              <li><a href="#">Devoluciones</a></li>
+              <li><a href="#">Opciones de pago</a></li>
+              <li><a href="#">Contacto</a></li>
             </ul>
             <ul>
-              <li>Information</li>
-              <li><a href="#">Gift Cards</a></li>
-              <li><a href="#">Find a store</a></li>
+              <li>Información</li>
+              <li><a href="#">Tiendas</a></li>
               <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Bacome a member</a></li>
-              <li><a href="#">Site feedback</a></li>
+              <li><a href="#">Comentario del Sitio Web</a></li>
             </ul>
             <ul>
-              <li>Contact</li>
-              <li><a href="#">store@uikit.com</a></li>
-              <li><a href="#">Hotline: +1 131 138 138</a></li>
+              <li>Contacto</li>
+              <li><a href="#">contacto@novemsrl.com</a></li>
+              <li><a href="#">Celular: +59 2604609798</a></li>
             </ul>
           </div>
         </div>
@@ -46,7 +44,7 @@ const Footer = () => {
       
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY ICEO.CO - © 2019. ALL RIGHTS RESERVED.</p>
+          <p> DESARROLLADO POR DESWEBY - © NOVEM SRL 2024. TODOS LOS DERECHOS RESERVADOS.</p>
         </div>
       </div>
     </footer>

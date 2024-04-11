@@ -6,7 +6,7 @@ const RegisterPage = () => (
     <section className="form-page">
       <div className="container">
         <div className="back-button-section">
-          <Link href="/products">
+          <Link legacyBehavior href="/products">
             <a><i className="icon-left"></i> Back to store</a>
           </Link>
         </div>
@@ -46,7 +46,7 @@ const RegisterPage = () => (
             <button type="button" className="btn btn--rounded btn--yellow btn-submit">Sign up</button>
 
             <p className="form__signup-link">
-              <Link href="/login">
+              <Link legacyBehavior href="/login">
                 <a href="#">Are you already a member?</a>
               </Link>
             </p>

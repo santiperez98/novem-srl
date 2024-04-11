@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Router from 'next/router';
 import {wrapper} from '../store';
-
+import Head from 'next/head';
 // types
 import type { AppProps } from 'next/app';
 
@@ -24,6 +24,10 @@ if(isProduction) {
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <Fragment>
+        <Head>
+
+      <link rel="icon" href="/favicon.ico" /> {/* Ruta al archivo favicon */}
+    </Head>
     <Component {...pageProps} />
   </Fragment>
 );
